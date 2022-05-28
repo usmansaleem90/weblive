@@ -1,0 +1,288 @@
+* 
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 1196px) {
+    .container 
+    {
+        min-width: 100%;
+        margin: auto;
+    }
+    .head
+    {
+        min-width: 100%;
+    }
+    .icon 
+    {
+        margin-left: 0px;
+    }
+    .block p
+    {
+        padding: 15px;
+    }
+    .head p 
+    {
+        padding: 0px 16px;
+    }
+    .head h1 
+    {
+        padding: 0px 15px;
+    }
+}
+@media only screen and (max-width: 1090px) {
+    .abContainer
+    {
+      flex-direction: column;
+    }
+    .abContainer button 
+    {
+        width: 37%;
+    }
+    #co 
+    {
+        min-width: 100%;
+    }
+    .head 
+    {
+        width: 100%;
+        margin: 0px;
+    }
+    .head .heading
+    {
+        width: 100%;
+    }
+  }
+
+
+  @media only screen and (max-width: 846px) {
+    .head,.heading
+    {
+      min-width: 94%;
+    }
+    .abContainer
+    {
+        min-width: 100%;
+    }
+    .abContainer button 
+    {
+        width: 100%;
+    }
+    .container 
+    {
+        margin: 0px;
+        padding: 5px;
+        min-width: 100%;
+    }
+    .head 
+    {
+        width: 100%;
+    }
+  }
+
+
+  @media only screen and (max-width: 358px) {
+    .head,.heading
+    {
+      min-width: 100%;
+    }
+    .head .heading
+    {
+        font-size: 40px;
+    }
+    .abContainer .h
+    {
+        font-size: 20px;
+    }
+    .abContainer #btn
+    {
+        font-size: 4px;
+    }
+  }
+
+  @media only screen and (max-width: 1196px) {
+    .fiel 
+    {
+        flex-direction: column;
+    }
+    .icon 
+    {
+        min-width: 100%;
+        margin-left: 0px;
+    }
+    .subCont
+    {
+        padding: 0%;
+        min-width: 100%;
+    }
+
+  }
+  @media only screen and (max-width: 725px) {
+    .subCont 
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .icon 
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+  }
+  @media only screen and (max-width: 429px) {
+      .content
+      {
+          min-width: 100%;
+      }
+      .box
+      {
+          min-width: 100%;
+      }
+      .head 
+      {
+          min-width:100% ;
+      }
+      .head .heading 
+      {
+        font-size: 30px;
+        text-align: center;
+      }
+      .butn
+      {
+         display: flex;
+         justify-content: center;
+      }
+  }
+.heading 
+{
+    font-weight: 600;
+    font-size: 73px;
+    color: black;
+    margin-bottom: 0px;
+    font-family: 'Paytone One', sans-serif;
+}
+.heading  p
+{
+    color: black;
+}
+.head 
+{
+    width: 56%;
+
+}
+.subCont 
+{
+     border: 2px solid #efefef;
+     width: 90%;
+    display: flex;
+    padding: 70px 40px;
+    justify-content: space-between;
+    background-color: #efefef;
+}
+.container 
+{
+    width: 70%;
+    margin: auto;
+    color: grey;
+}
+.field input
+{
+    padding:11px;
+    margin-bottom: 20px;
+    width: 100%;
+    border: 2px solid #efefef;
+}
+.emailField 
+{
+    width: 100%;
+}
+.field button 
+{
+    padding: 10px;
+    width: 112px;
+    color: white;
+    border: 2px solid #3bbd3b;
+    background-color: #3bbd3b;
+    font-size: 19px;
+    cursor: pointer;
+    float: right;
+}
+.content 
+{
+    width: 29%;
+}
+.fiel 
+{
+    display: flex;
+    justify-content: space-between;
+}
+#message 
+{
+    border: 2px solid #efefef;
+    width: 100%;
+}
+::placeholder
+{
+    color: rgb(208, 202, 202);
+}
+.icon 
+{
+    
+    width: 63%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+}
+.box 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 250px;
+    color: grey;
+}
+.box div h2 
+{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.block 
+{
+    padding:10px 10px 10px 0px;
+}
+.abContainer 
+{
+    border: 2px solid #1A99D4;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 10px;
+    background-color: #1A99D4;
+    color: white;
+}
+.abContainer h1 
+{
+    font-family: 'Paytone One', sans-serif;
+    font-size: 35px;
+}
+.abContainer button 
+{
+    padding: 10px;
+    background-color: whitesmoke;
+    color: #1A99D4;
+    border: 2px solid white;
+    word-spacing: 8px;
+}
+#btn:hover
+{
+    background-color: rgb(217, 230, 217);
+    border: 2px solid rgb(217, 230, 217);
+}

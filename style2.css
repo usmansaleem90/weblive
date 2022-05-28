@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header-wrapper {
+  width: 100%;
+  height: 100%;
+  background: url(./watermark-1.png) no-repeat center;
+  background-size: cover;
+  /* filter: blur(1px); */
+}
+.navbar {
+  background: white;
+  width: 100%;
+  position: sticky !important;
+  top: 0;
+  z-index: 111;
+}
+.navbar .navbar-brand {
+  width: 20%;
+}
+.navbar .nav-item {
+  padding: 1rem;
+}
+.navbar .nav-item .nav-link {
+  font-family: "Open Sans", sans-serif;
+  color: #3d3e3d;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 20px;
+}
+.navbar .nav-item .nav-link:hover {
+  color: #85ac3f;
+}
+.navbar .call {
+  background-color: #1a99d4;
+  border-radius: 10px;
+}
+.navbar .call .icon {
+  font-size: 40px;
+  color: white;
+  font-weight: 900;
+}
+
+.navbar .call span {
+  font-family: "Open sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.7px;
+  color: #fff;
+}
+.navbar .call p {
+  font-family: "Open sans", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 14px;
+  color: #fff;
+}
+
+.banner-Wrapper h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 3.2rem;
+  font-weight: 800;
+  line-height: 60px;
+  color: #3d3e3d;
+}
+.banner-Wrapper .span {
+  color: #1a99d4;
+}
+
+.banner-Wrapper ul {
+  list-style-type: none;
+}
+.banner-Wrapper ul::before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+.banner-Wrapper ul li {
+  line-height: 35px;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  position: relative;
+}
+.banner-Wrapper ul li::before {
+  color: #85ac3f;
+  position: absolute;
+  left: -7%;
+  font-weight: 900;
+  font-family: "Font Awesome 5 Free";
+  content: "\f0e9";
+}
+.banner-Wrapper span {
+  color: black;
+}
+
+.banner-Wrapper form {
+  width: 85%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.2);
+}
+.banner-Wrapper form .form-control:focus,
+.banner-Wrapper form .form-control:active,
+.banner-Wrapper form .form-select:focus,
+.banner-Wrapper form .form-select:active {
+  outline: none !important;
+  box-shadow: none;
+  border-color: gray;
+}
+.banner-Wrapper form label {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+
+.banner-Wrapper .btn {
+  position: relative;
+  font-family: "Open sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  width: 100%;
+  height: 10vh;
+  background-color: #85ac3f;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+.banner-Wrapper .btn:hover {
+  background-color: red;
+  color: white;
+  border: none;
+}
+.banner-Wrapper .btn::before {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  font-weight: 900;
+  font-family: "Font Awesome 5 Free";
+  content: "\f2f6";
+}
+
+.banner-Wrapper .title {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 30px;
+  position: relative;
+}
+.banner-Wrapper .title::before {
+  color: white;
+  position: absolute;
+  font-size: 1.2rem;
+  color: #1a99d4;
+  font-weight: 900;
+  font-family: "Font Awesome 5 Free";
+  content: "\f358";
+}
