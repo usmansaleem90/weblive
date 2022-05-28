@@ -18,6 +18,14 @@
   top: 0;
   z-index: 111;
 }
+.navbar-toggler {
+  border: 1px solid #000 !important;
+  color: #3d3e3d !important;
+}
+.navbar-toggler-icon{
+background-color: rgb(48, 8, 8) !important;
+border-radius: 6px;
+}
 .navbar .navbar-brand {
   width: 20%;
 }
